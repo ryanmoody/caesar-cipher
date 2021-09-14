@@ -126,6 +126,7 @@ button {
   color: #66ff99;
   outline: none;
   font-family: Roboto Mono, monospace;
+  overflow-wrap: break-word;
 }
 
 .input-container textarea:focus {
