@@ -214,6 +214,7 @@ button {
 .footer {
   flex-shrink: 0;
   background-color: #20232a;
+  text-align: center;
   padding: 1.1em 1.5em;
   box-shadow: 0px 0px 5px 1px #16181d;
 }
