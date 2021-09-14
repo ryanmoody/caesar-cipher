@@ -48,8 +48,26 @@ button {
 }
 
 .logo {
-  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  color: #66ff99;
+}
+
+.logo-text {
+  margin: 0 0 0 0.3em;
   font-family: Rubik, sans-serif;
+  font-size: 2em;
+}
+
+.github-icon {
+  color: #fff;
+}
+
+.github-icon:hover {
+  color: #66ff99;
 }
 
 /* Main Content */
@@ -59,7 +77,16 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* Cipher */
@@ -68,26 +95,6 @@ button {
   width: 90%;
   max-width: 700px;
   margin: 1em 0;
-}
-
-.instructions-container {
-  margin: 2em 0 3em 0;
-  padding: 1em;
-  background-color: #373c49;
-  border-radius: 0.5em;
-}
-
-.instructions-container h2,
-.instructions-container p {
-  padding-bottom: 1em;
-}
-
-.instructions-container h2 {
-  font-family: Rubik, sans-serif;
-}
-
-.accent-color {
-  color: #66ff99;
 }
 
 .input-container {
@@ -207,8 +214,7 @@ button {
 .footer {
   flex-shrink: 0;
   background-color: #20232a;
-  text-align: center;
-  padding: 1em 0;
+  padding: 1.1em 1.5em;
   box-shadow: 0px 0px 5px 1px #16181d;
 }
 
