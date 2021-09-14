@@ -1,3 +1,7 @@
 # Caesar Cipher Application
 
-This is a simple web application that allows a user to encrypt and decrypt messages using the Caesar substitution cipher.
+This application encrypts and decrypts messages using the caesar cipher.
+
+![Screenshot](/docs/Screenshot.png "Caesar Cipher Application")
+
+[View Live](https://caesar-cipher-application.netlify.app)

@@ -74,7 +74,7 @@ button {
   margin: 2em 0 3em 0;
   padding: 1em;
   background-color: #373c49;
-  border-radius: .5em;
+  border-radius: 0.5em;
 }
 
 .instructions-container h2,
@@ -93,7 +93,7 @@ button {
 .input-container {
   margin: 2em 0;
   padding: 1em;
-  border-radius: .5em;
+  border-radius: 0.5em;
   background-color: #20232a;
   font-family: Rubik, sans-serif;
   display: flex;
@@ -103,14 +103,14 @@ button {
 
 .clear-button {
   color: #66ff99;
-  font-size: .8em;
+  font-size: 0.8em;
   text-transform: uppercase;
   font-family: Roboto Mono, monospace;
 }
 
 .input-container textarea {
-  margin: .8em 0;
-  padding: .5em .5em;
+  margin: 0.8em 0;
+  padding: 0.5em 0.5em;
   resize: none;
   overflow: auto;
   width: 100%;
@@ -122,7 +122,7 @@ button {
 }
 
 .input-container textarea:focus {
-  outline:1px solid #efefef;
+  outline: 1px solid #efefef;
 }
 
 .controls-group {
@@ -136,17 +136,18 @@ button {
 .button {
   text-align: center;
   text-decoration: none;
-  border-radius: .5em;
+  border-radius: 0.5em;
   border: 1px solid transparent;
   padding: 1em 2.5em;
   color: #111111;
   background-color: #66ff99;
   transition: all 0.2s;
-  box-shadow: 0px 0px 5px 1px #16181d, inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  box-shadow: 0px 0px 5px 1px #16181d,
+    inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
 }
 
 .button:active {
-  transform: translateY(.2em);
+  transform: translateY(0.2em);
   filter: saturate(110%);
 }
 
@@ -160,17 +161,18 @@ button {
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  border-radius: .5em;
+  border-radius: 0.5em;
   border: 1px solid transparent;
   padding: 1em 1.2em;
   color: #efefef;
   background-color: #20232a;
   transition: all 0.2s;
-  box-shadow: 0px 0px 5px 1px #16181d, inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  box-shadow: 0px 0px 5px 1px #16181d,
+    inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
 }
 
 .counter-button:active {
-  transform: translateY(.2em);
+  transform: translateY(0.2em);
   filter: saturate(110%);
 }
 
@@ -207,7 +209,7 @@ button {
   background-color: #20232a;
   text-align: center;
   padding: 1em 0;
-  box-shadow: 0px 0px 5px 1px #16181d
+  box-shadow: 0px 0px 5px 1px #16181d;
 }
 
 .copyright {
@@ -217,6 +219,6 @@ button {
 
 .shadow {
   -webkit-box-shadow: 3px 3px 5px 6px #16181d;
-  -moz-box-shadow:    3px 3px 5px 6px #16181d;
-  box-shadow:         0px 0px 5px 1px #16181d;
+  -moz-box-shadow: 3px 3px 5px 6px #16181d;
+  box-shadow: 0px 0px 5px 1px #16181d;
 }
