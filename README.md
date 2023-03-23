@@ -2,6 +2,6 @@
 
 # Caesar Cipher Application
 
-[View Live](https://caesar-cipher-app.netlify.app)
-
 ![Screenshot](/docs/Screenshot.png "Caesar Cipher Application")
+
+[View Live](https://caesar-cipher-app.netlify.app)
